@@ -47,10 +47,10 @@ const SkillsList = () => {
       "I am currently pursuing my Bachelor's degree in Software Engineering at Dr. Shariati Technical and Vocational University (2025 - Present). I previously completed an Associate degree in Software Engineering (2023 - 2025) at the same university with a GPA of 19.5. Additionally, I completed a Beginner to Advanced Python course (2024, 6 months) at Iran Technical and Vocational Organization. I complement my formal education with continuous self-learning to stay updated with technological advances.",
     ],
     "How do I work in a team?": [
-      "I have experience working in various team environments, from corporate settings to freelance collaborations. I use version control systems like Git and GitHub to manage workflow and collaborate effectively. I'm experienced in both independent work and team collaboration, adapting to different project requirements and communication styles.",
+      "I have experience working in various team environments, from corporate settings to freelance collaborations. I use version control systems like Git and GitHub to manage workflow and collaborate effectively. I've experienced in both independent work and team collaboration, adapting to different project requirements and communication styles.",
     ],
     "My Projects": [
-      "I've worked on several significant projects including the hoomPlus building management system, galleryFTP security camera integration, shared room management with barcode systems, and mobile applications for door management. I also have experience in CRM development, intelligent educational processes, and Telegram bot programming.",
+      "I've worked on several significant projects including the hoomPlus building management system, galleryFTP security camera integration, shared room management with QR code systems, and mobile applications for door management. I also have experience in CRM development, intelligent educational processes, and Telegram bot programming.",
     ],
   };
 

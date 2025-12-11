@@ -63,12 +63,15 @@ export default function NotificationBell() {
     return () => document.removeEventListener("click", handleDocClick);
   }, []);
 
-  // Mark as read
+  // Mark as read after a delay when dropdown is opened
   useEffect(() => {
     if (open && unreadCount > 0) {
-      setNotifications((prev) => prev.map((n) => ({ ...n, read: true })));
+      const timer = setTimeout(() => {
+        setNotifications((prev) => prev.map((n) => ({ ...n, read: true })));
+      }, 2000); // Mark as read after 2 seconds of viewing
+      return () => clearTimeout(timer);
     }
-  }, [open]);
+  }, [open, unreadCount]);
 
   return (
     <div ref={containerRef} className="relative">
@@ -96,7 +99,15 @@ export default function NotificationBell() {
               </h4>
             </div>
 
-            {read.length > 0 ? (
+            {unread.length > 0 ? (
+              <ul className="max-h-48 divide-y divide-gray-800 overflow-auto">
+                {unread.map((n) => (
+                  <li key={n.id} className="py-2 text-sm text-gray-300 font-medium">
+                    {n.text}
+                  </li>
+                ))}
+              </ul>
+            ) : read.length > 0 ? (
               <ul className="max-h-48 divide-y divide-gray-800 overflow-auto">
                 {read.map((n) => (
                   <li key={n.id} className="py-2 text-sm text-gray-400">

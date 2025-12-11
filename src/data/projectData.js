@@ -1,133 +1,135 @@
 import imgNote from "../assets/img-projects/note-app.png";
+import imgTelCRM from "../assets/img-projects/tel-crm1.png";
 import urbanStyle from "../assets/img-projects/urbanStyle.png";
 import legalWeb from "../assets/img-projects/legalweb.webp";
 import mediCare from "../assets/img-projects/medicare.jpg";
 import astroFit from "../assets/img-projects/Astrofit.jpg";
 import Verbenas from "../assets/img-projects/challenge-newyze.png";
+import { BiCode } from "react-icons/bi";
 
 export const projects = [
   {
-    title: "Organization App",
+    title: "Telegram Bot CRM",
     description:
-      "Full-stack app with CRUD functions, board and list creation, user authentication, developed with MERN stack.",
-    imagen: imgNote.src,
-    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
-    demo: "https://front-react-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Front-react-todo",
-    categoria: "fullstack",
+      "Full-stack Dashboard for managing CRM data, with charts and data analytics.",
+    image: imgTelCRM.src,
+    tecnology: ["Next.js", "Express", "MongoDB"],
+    demo: "#",
+    code: "#",
+    category: "fullstack",
   },
   {
-    title: "E-commerce Urban Style",
+    title: "Student Management System",
     description:
-      "Functional clothing and accessories e-commerce, with shopping cart, categories and payment gateway developed in React.",
-    imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
-    categoria: "fullstack",
+      "A modern and responsive web-based student management system university project. It includes complete features such as user registration, login, exams, profiles, study plans, weekly schedules, and detailed report cards—all in one elegant dashboard.",
+    image: urbanStyle.src,
+    tecnology: ["HTML","JavaScript", "BootStrap", "PHP"],
+    demo: "https://drive.google.com/file/d/1FSfWvOJmQpIsKHxG2Ojot4Sbc-vortMt/view?usp=sharing",
+    code: "https://github.com/farnazdev/student-management-dashboard.git",
+    category: "fullstack",
   },
   {
-    title: "Artisan Store",
+    title: "IoT Dashboard",
     description:
-      "Full-Stack ecommerce to view, buy and sell your products, with login for users and sellers.",
-    imagen:
+      "Full-Stack IoT Dashboard for managing IoT devices and data. Includes features such as device management, data visualization, and alerts.",
+    image:
       "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
-    tecnologias: ["React", "Node", "Express", "MongoDB"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
-    categoria: "fullstack",
+    tecnology: ["JavaScript", "PHP", "MongoDB"],
+    demo: "https://drive.google.com/file/d/1wklzyDCOnUFf858gKwRfW63J3VNHkAPv/view?usp=sharing",
+    code: "https://github.com/farnazdev/IoT-dashboard.git",
+    category: "fullstack",
   },
   {
-    title: "Income-Expense Tracker",
+    title: "HoomPlus Platform",
     description:
-      "App that performs CRUD operations to add, view, edit and delete income/expenses.",
-    imagen:
+      "A platform for managing and controlling smart home systems. It includes features such as paying for services and billing, managing home devices and users.",
+    image:
       "https://i.pinimg.com/736x/a4/85/c4/a485c4da3e78f4f518ddbcdb6637bacf.jpg",
-    tecnologias: ["React", "contextAPI"],
-    demo: "https://traker-gastos-ingresos.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos",
-    categoria: "frontend",
+    tecnology: ["JavaScript", "contextAPI", "PHP"],
+    demo: "https://drive.google.com/drive/folders/10cnMBDgUBLc-TJ1szjKQ1eX7QcJSAFYa?usp=sharing",
+    code: "https://github.com/farnazdev/hoom-plus-platform.git",
+    category: "backend",
   },
   {
-    title: "Weather App",
+    title: "BLE Remote",
     description:
-      "Application made with React that uses an API to show the weather in real time.",
-    imagen:
+      "A Flutter-based mobile application for communicating with ESP-based IoT devices via Bluetooth Low Energy (BLE).This app allows users to connect to hardware devices like ESP32, send and receive data, and interact with custom IoT systems—all from their smartphone.",
+    image:
       "https://i.pinimg.com/736x/10/6e/cd/106ecd1bfe5ed1c3defb83ea0f87a334.jpg",
-    tecnologias: ["React", "contextAPI", "tailwind"],
-    demo: "https://app-clima-om19.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/app-clima",
-    categoria: "frontend",
+    tecnology: ["Flutter", "Dart", "C++", "APIs"],
+    demo: "https://drive.google.com/drive/folders/1Tv3RJfPA2fCw0pv1ohKgLcRcJA-iOhpN?usp=sharing",
+    code: "https://github.com/farnazdev/ble-remote.git",
+    category: "mobile",
   },
   {
-    title: "Legal Staff",
+    title: "Doorcam Notifier",
     description:
-      "Web developed with Astro and Tailwind, marketing funnel for law firms.",
-    imagen: legalWeb.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://legal-staff.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/legal-staff",
-    categoria: "frontend",
+      "An automated photo logging and notification system that captures an image when the parking door opens and sends it to a Bale messenger channel, along with timestamped logs.",
+    image: legalWeb.src,
+    tecnology: ["PHP", "REST API"],
+    demo: "https://drive.google.com/drive/folders/1LHdjm0-mfvHLsNUZ6uZlJuFyMlsCB4eC?usp=sharing",
+    code: "https://github.com/farnazdev/doorcam-notifier.git",
+    category: "backend",
   },
   {
-    title: "Medicare",
+    title: "Reservation System",
     description:
-      "Web developed with Astro and Tailwind, marketing funnel for Social Security organizations.",
-    imagen: mediCare.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://obra-social-landing.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/obra-social-landing.git",
-    categoria: "frontend",
+      "A secure, OTP-based reservation system that allow users to log in with their phone number, enter a reservation code, and receive a time-limited QR code for final access. The QR code expires after 15 seconds, ensuring secure and one-time usage.",
+    image: mediCare.src,
+    tecnology: ["HTML", "CSS", "PHP"],
+    demo: "https://drive.google.com/file/d/1q625JCwJ1z0GZhUTyA1ee-vsUzvG6gCI/view?usp=sharing",
+    code: "https://github.com/farnazdev/qr-code-reservation.git",
+    category: "frontend",
   },
   {
-    title: "AstroFit",
+    title: "Pixter Social App",
     description:
-      "Web developed with Astro and Tailwind, marketing funnel for fitness consulting.",
-    imagen: astroFit.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://gym-page-sandy.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/GymPage.git",
-    categoria: "frontend",
+      "Pixter is a fully functional Android-based social media platform, built to connect users through messaging, content sharing, and interactive features like following, liking, and commenting. It combines a native mobile client with a real-time backend to deliver a seamless social experience.",
+    image: astroFit.src,
+    tecnology: ["Android Studio", "Java", "PHP", "APIs"],
+    demo: "https://drive.google.com/drive/folders/1e3LS_dAewKp9Qy_kyqeEbBagRScV94cg?usp=sharing",
+    code: "https://github.com/farnazdev/pixter-social-app.git",
+    category: "mobile",
   },
   {
-    title: "100 days coding in Js",
-    description: "100 projects, made with HTML, CSS and JavaScript.",
-    imagen:
+    title: "Game Collection App",
+    description: "GamePack is a collection of three interactive and educational mini-games with a user-friendly interface and a smooth gameplay experience.",
+    image:
       "https://i.pinimg.com/736x/3b/4f/4e/3b4f4e170fcb1795b88f4941f49df0a2.jpg",
-    tecnologias: ["Next.js", "Tailwind", "GraphQL"],
-    demo: "https://one00-proyects-web.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
-    categoria: "frontend",
+    tecnology: ["Android Studio", "Java"],
+    demo: "#",
+    code: "https://github.com/farnazdev/game-collection.git",
+    category: "mobile",
   },
   {
-    title: "PlaniFy",
+    title: "Telegram Account Manager",
     description:
-      "Web app to organize your projects, made with React + Vite, TypeScript and Tailwind for styling.",
-    imagen:
+      "Full backend for managing Telegram accounts and their data.",
+    image:
       "https://i.pinimg.com/736x/8f/f0/bb/8ff0bbd0e5844ed254bede44522c8338.jpg",
-    tecnologias: ["React", "Vite", "TypeScript", "Tailwind"],
-    demo: "https://planify-1tu6.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/PlaniFy-organization-app",
-    categoria: "frontend",
+    tecnology: ["Nodejs", "Express", "JavaScript"],
+    demo: "#",
+    code: "https://github.com/farnazdev/telegram-account-manager.git",
+    category: "backend",
   },
   {
-    title: "Verbenas Landscapes",
+    title: "Authentication System",
     description:
-      "Static page developed with Astro and tailwind as a challenge for a startup.",
-    imagen: Verbenas.src,
-    tecnologias: ["Astro", "Tailwind", "JavaScript"],
-    demo: "https://challenge-neowyze.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/challenge-Neowyze.git",
-    categoria: "frontend",
+      "Authentication system for a web application. It includes features such as user registration, login, logout, and posting content.",
+    image: Verbenas.src,
+    tecnology: ["Nodejs", "Atlas", "Express", "Postman"],
+    demo: "#",
+    code: "https://github.com/farnazdev/authentication-template.git",
+    category: "backend",
   },
   {
     title: "REST API",
     description:
       "RESTful API built with Express and MongoDB to manage tasks with CRUD operations, user registration and login with JWT.",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    image: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    tecnology: ["Express", "Node.js", "Mongoose", "MongoDB"],
     demo: "https://back-express-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
-    categoria: "backend",
+    code: "https://github.com/farnazdev",
+    category: "backend",
   },
 ];

@@ -2,7 +2,7 @@
 import "../styles/projects.css";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/commons/hero/hero.astro";
-import ProjectCard from "../components/project/proyectCard.astro";
+import ProjectCard from "../components/project/projectCard.astro";
 import Banner from "../components/commons/banners/banner.astro";
 import { projects } from "../data/projectData.js";
 ---
@@ -24,6 +24,9 @@ import { projects } from "../data/projectData.js";
     <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="backend">
       Backend
     </button>
+    <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="mobile">
+      Mobile
+    </button>
   </div>
 
   <!-- Cards -->
@@ -37,11 +40,11 @@ import { projects } from "../data/projectData.js";
           index={index}
           title={project.title}
           description={project.description}
-          imagen={project.imagen}
-          tecnologias={project.tecnologias}
+          image={project.image}
+          tecnology={project.tecnology}
           demo={project.demo}
-          codigo={project.codigo}
-          categoria={project.categoria}
+          code={project.code}
+          category={project.category}
         />
       ))
     }
@@ -112,8 +115,8 @@ import { projects } from "../data/projectData.js";
     cards = Array.from(document.querySelectorAll("[data-index]"));
 
     const filteredCards = cards.filter((card) => {
-      const categoria = (card.dataset.categoria ?? "").toLowerCase();
-      return normalized === "all" || categoria === normalized;
+      const category = (card.dataset.category ?? "").toLowerCase();
+      return normalized === "all" || category === normalized;
     });
 
     cards.forEach((c) => hideCard(c));
