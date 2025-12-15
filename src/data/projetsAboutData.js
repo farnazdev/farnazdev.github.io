@@ -1,11 +1,13 @@
 import urbanStyle from "../assets/img-projects/urbanStyle.png";
 import imgNote from "../assets/img-projects/note-app.png";
+import iotDash from "../assets/img-projects/iot-dashboard.png";
+import imgTelCRM from "../assets/img-projects/tel-crm1.png";
 
 export const projects = [
   {
     title: "Telegram Bot CRM",
     description: "Full-stack Dashboard for managing and analyzing CRM data, with charts and data analytics.",
-    image: urbanStyle.src,
+    image: imgTelCRM.src,
     tecnology: ["Next.js", "Express", "MongoDB"],
     demo: "#",
     code: "#",
@@ -33,7 +35,7 @@ export const projects = [
     title: "IoT Dashboard",
     description:
       "Full-Stack IoT Dashboard for managing IoT devices and data. Includes features such as device management, data visualization, and alerts.",
-    image: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    image: iotDash.src,
     tecnology: ["JavaScript", "PHP", "MongoDB"],
     demo: "#",
     code: "https://github.com/farnazdev/IoT-dashboard.git",

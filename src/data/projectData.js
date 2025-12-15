@@ -1,11 +1,11 @@
-import imgNote from "../assets/img-projects/note-app.png";
+import iotDash from "../assets/img-projects/iot-dashboard.png";
+import studentDash from "../assets/img-projects/stDashboard.png";
 import imgTelCRM from "../assets/img-projects/tel-crm1.png";
 import urbanStyle from "../assets/img-projects/urbanStyle.png";
 import legalWeb from "../assets/img-projects/legalweb.webp";
 import mediCare from "../assets/img-projects/medicare.jpg";
 import astroFit from "../assets/img-projects/Astrofit.jpg";
 import Verbenas from "../assets/img-projects/challenge-newyze.png";
-import { BiCode } from "react-icons/bi";
 
 export const projects = [
   {
@@ -22,7 +22,7 @@ export const projects = [
     title: "Student Management System",
     description:
       "A modern and responsive web-based student management system university project. It includes complete features such as user registration, login, exams, profiles, study plans, weekly schedules, and detailed report cards—all in one elegant dashboard.",
-    image: urbanStyle.src,
+    image: studentDash.src,
     tecnology: ["HTML","JavaScript", "BootStrap", "PHP"],
     demo: "https://drive.google.com/file/d/1FSfWvOJmQpIsKHxG2Ojot4Sbc-vortMt/view?usp=sharing",
     code: "https://github.com/farnazdev/student-management-dashboard.git",
@@ -33,7 +33,7 @@ export const projects = [
     description:
       "Full-Stack IoT Dashboard for managing IoT devices and data. Includes features such as device management, data visualization, and alerts.",
     image:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
+      iotDash.src,
     tecnology: ["JavaScript", "PHP", "MongoDB"],
     demo: "https://drive.google.com/file/d/1wklzyDCOnUFf858gKwRfW63J3VNHkAPv/view?usp=sharing",
     code: "https://github.com/farnazdev/IoT-dashboard.git",
