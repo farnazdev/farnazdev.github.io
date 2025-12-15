@@ -1,7 +1,8 @@
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
-import imgNote from "../assets/img-projects/note-app.png";
-import iotDash from "../assets/img-projects/iot-dashboard.png";
-import imgTelCRM from "../assets/img-projects/tel-crm1.png";
+import iotDash from "../assets/img-projects/iotDash.png";
+import imgTelCRM from "../assets/img-projects/telegramcrm.png";
+import imgPixter from "../assets/img-projects/pixter.png";
+import accountManager from "../assets/img-projects/accountMng.png";
+
 
 export const projects = [
   {
@@ -17,16 +18,16 @@ export const projects = [
     description:
       "Pixter is a fully social media app with a modern and responsive design.",
     image:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
+    imgPixter.src,
     tecnology: ["Android Studio", "Java", "PHP", "APIs"],
-    demo: "#",
+    demo: "https://drive.google.com/drive/folders/1GMQ3wglrvox8y-5vk_1mhwkJqWr6xYAO?usp=sharing",
     code: "https://github.com/farnazdev/pixter-social-app.git",
   },
   {
     title: "Telegram Account Manager",
     description:
       "Full backend for managing Telegram accounts and their data.",
-    image: imgNote.src,
+    image: accountManager.src,
     tecnology: ["Nodejs", "Express", "JavaScript"],
     demo: "#",
     code: "https://github.com/farnazdev/telegram-account-manager.git",
@@ -37,7 +38,7 @@ export const projects = [
       "Full-Stack IoT Dashboard for managing IoT devices and data. Includes features such as device management, data visualization, and alerts.",
     image: iotDash.src,
     tecnology: ["JavaScript", "PHP", "MongoDB"],
-    demo: "#",
+    demo: "https://drive.google.com/file/d/1wklzyDCOnUFf858gKwRfW63J3VNHkAPv/view?usp=sharing",
     code: "https://github.com/farnazdev/IoT-dashboard.git",
   },
 ];

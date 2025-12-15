@@ -1,11 +1,13 @@
-import iotDash from "../assets/img-projects/iot-dashboard.png";
+import iotDash from "../assets/img-projects/iotDash.png";
 import studentDash from "../assets/img-projects/stDashboard.png";
-import imgTelCRM from "../assets/img-projects/tel-crm1.png";
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
+import imgTelCRM from "../assets/img-projects/telegramcrm.png";
 import legalWeb from "../assets/img-projects/legalweb.webp";
 import mediCare from "../assets/img-projects/medicare.jpg";
-import astroFit from "../assets/img-projects/Astrofit.jpg";
-import Verbenas from "../assets/img-projects/challenge-newyze.png";
+import imgPixter from "../assets/img-projects/pixter.png";
+import accountManager from "../assets/img-projects/accountMng.png";
+import authentication from "../assets/img-projects/authImg.png";
+import bleConnector from "../assets/img-projects/ble2.png";
+import reservation from "../assets/img-projects/reservation.png";
 
 export const projects = [
   {
@@ -55,7 +57,7 @@ export const projects = [
     description:
       "A Flutter-based mobile application for communicating with ESP-based IoT devices via Bluetooth Low Energy (BLE).This app allows users to connect to hardware devices like ESP32, send and receive data, and interact with custom IoT systems—all from their smartphone.",
     image:
-      "https://i.pinimg.com/736x/10/6e/cd/106ecd1bfe5ed1c3defb83ea0f87a334.jpg",
+      bleConnector.src,
     tecnology: ["Flutter", "Dart", "C++", "APIs"],
     demo: "https://drive.google.com/drive/folders/1Tv3RJfPA2fCw0pv1ohKgLcRcJA-iOhpN?usp=sharing",
     code: "https://github.com/farnazdev/ble-remote.git",
@@ -75,7 +77,7 @@ export const projects = [
     title: "Reservation System",
     description:
       "A secure, OTP-based reservation system that allow users to log in with their phone number, enter a reservation code, and receive a time-limited QR code for final access. The QR code expires after 15 seconds, ensuring secure and one-time usage.",
-    image: mediCare.src,
+    image: reservation.src,
     tecnology: ["HTML", "CSS", "PHP"],
     demo: "https://drive.google.com/file/d/1q625JCwJ1z0GZhUTyA1ee-vsUzvG6gCI/view?usp=sharing",
     code: "https://github.com/farnazdev/qr-code-reservation.git",
@@ -85,7 +87,7 @@ export const projects = [
     title: "Pixter Social App",
     description:
       "Pixter is a fully functional Android-based social media platform, built to connect users through messaging, content sharing, and interactive features like following, liking, and commenting. It combines a native mobile client with a real-time backend to deliver a seamless social experience.",
-    image: astroFit.src,
+    image: imgPixter.src,
     tecnology: ["Android Studio", "Java", "PHP", "APIs"],
     demo: "https://drive.google.com/drive/folders/1e3LS_dAewKp9Qy_kyqeEbBagRScV94cg?usp=sharing",
     code: "https://github.com/farnazdev/pixter-social-app.git",
@@ -106,7 +108,7 @@ export const projects = [
     description:
       "Full backend for managing Telegram accounts and their data.",
     image:
-      "https://i.pinimg.com/736x/8f/f0/bb/8ff0bbd0e5844ed254bede44522c8338.jpg",
+      accountManager.src,
     tecnology: ["Nodejs", "Express", "JavaScript"],
     demo: "#",
     code: "https://github.com/farnazdev/telegram-account-manager.git",
@@ -116,7 +118,7 @@ export const projects = [
     title: "Authentication System",
     description:
       "Authentication system for a web application. It includes features such as user registration, login, logout, and posting content.",
-    image: Verbenas.src,
+    image: authentication.src,
     tecnology: ["Nodejs", "Atlas", "Express", "Postman"],
     demo: "#",
     code: "https://github.com/farnazdev/authentication-template.git",
