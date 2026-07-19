@@ -75,6 +75,16 @@ export const projects = [
     category: "backend",
   },
   {
+    title: "Flappy Bird Game",
+    description:
+      "A polished Flappy Bird-inspired game built with Unity and C#, featuring custom gameplay mechanics and a responsive user experience.",
+    image: flappyBird.src,
+    tecnology: ["Unity", "C#", "Adobe Illustrator", "Unity Animations"],
+    demo: "#",
+    code: "https://github.com/farnazdev",
+    category: "game",
+  },
+  {
     title: "Reservation System",
     description:
       "A secure, OTP-based reservation system that allow users to log in with their phone number, enter a reservation code, and receive a time-limited QR code for final access. The QR code expires after 15 seconds, ensuring secure and one-time usage.",
@@ -135,14 +145,5 @@ export const projects = [
     code: "https://github.com/farnazdev",
     category: "backend",
   },
-  {
-    title: "Flappy Bird Game",
-    description:
-      "A polished Flappy Bird-inspired game built with Unity and C#, featuring custom gameplay mechanics and a responsive user experience.",
-    image: flappyBird.src,
-    tecnology: ["Unity", "C#", "Adobe Illustrator", "Unity Animations"],
-    demo: "#",
-    code: "https://github.com/farnazdev",
-    category: "game",
-  },
+  
 ];
