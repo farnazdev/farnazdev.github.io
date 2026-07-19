@@ -8,6 +8,7 @@ import accountManager from "../assets/img-projects/accountMng.png";
 import authentication from "../assets/img-projects/authImg.png";
 import bleConnector from "../assets/img-projects/ble2.png";
 import reservation from "../assets/img-projects/reservation.png";
+import flappyBird from "../assets/img-projects/Flappy1.png";
 
 export const projects = [
   {
@@ -133,5 +134,15 @@ export const projects = [
     demo: "https://back-express-todo.onrender.com",
     code: "https://github.com/farnazdev",
     category: "backend",
+  },
+  {
+    title: "Flappy Bird Game",
+    description:
+      "A polished Flappy Bird-inspired game built with Unity and C#, featuring custom gameplay mechanics and a responsive user experience.",
+    image: flappyBird.src,
+    tecnology: ["Unity", "C#", "Adobe Illustrator", "Unity Animations"],
+    demo: "#",
+    code: "https://github.com/farnazdev",
+    category: "game",
   },
 ];
