@@ -9,8 +9,19 @@ import authentication from "../assets/img-projects/authImg.png";
 import bleConnector from "../assets/img-projects/ble2.png";
 import reservation from "../assets/img-projects/reservation.png";
 import flappyBird from "../assets/img-projects/Flappy1.png";
+import tasksPlanner from "../assets/img-projects/tasksPlanner.png";
 
 export const projects = [
+  {
+    title: "Tasks Planner",
+    description:
+      "A complete and intuitive task planner built with Google Sheet & JavaScript. It allows you to create, edit, and delete tasks, and to mark them as completed or not.",
+    image: tasksPlanner.src,
+    tecnology: ["Google sheet", "JavaScript", "API"],
+    demo: "#",
+    code: "#",
+    category: "google sheet",
+  },
   {
     title: "Telegram Bot CRM",
     description:
