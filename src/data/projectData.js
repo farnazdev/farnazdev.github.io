@@ -10,6 +10,7 @@ import bleConnector from "../assets/img-projects/ble2.png";
 import reservation from "../assets/img-projects/reservation.png";
 import flappyBird from "../assets/img-projects/Flappy1.png";
 import tasksPlanner from "../assets/img-projects/tasksPlanner.png";
+import marketingManagement from "../assets/img-projects/marketing.png";
 
 export const projects = [
   {
@@ -63,6 +64,16 @@ export const projects = [
     demo: "https://drive.google.com/drive/folders/10cnMBDgUBLc-TJ1szjKQ1eX7QcJSAFYa?usp=sharing",
     code: "https://github.com/farnazdev/hoom-plus-platform.git",
     category: "backend",
+  },
+  {
+    title: "Marketing Management System",
+    description:
+      "A complete and intuitive marketing management system built with Google Sheet & JavaScript. It allows you to create, edit, and delete marketing campaigns, and to track their performance.",
+    image: marketingManagement.src,
+    tecnology: ["Google sheet", "JavaScript", "API"],
+    demo: "#",
+    code: "#",
+    category: "google sheet",
   },
   {
     title: "BLE Remote",
